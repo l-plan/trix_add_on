@@ -2,3 +2,7 @@ trix-toolbar .button_group button.ins::before {
    background-image: asset-data-url("underline.png"); }
 trix-toolbar .button_group button.grey::before {
    background-image: asset-data-url("grey.png"); }
+
+grey {
+   color:grey;
+}
