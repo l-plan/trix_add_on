@@ -85,5 +85,5 @@ Run rake to start the test-suite.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-[![Gem Version](https://badge.fury.io/rb/trix_add_on.svg)](https://badge.fury.io/rb/trix_add_on)
 
+[![GitHub version](https://badge.fury.io/gh/l-plan%2Ftrix_add_on.svg)](https://badge.fury.io/gh/l-plan%2Ftrix_add_on)
