@@ -57,7 +57,17 @@ add to application.css
 
 	 *= require trix_add_on
 
+## Localization
 
+for now only dutch
+
+add to application.js
+
+
+	 //= require trix-local/nl
+	 //= require trix_add_on
+
+require 'trix-local/nl' first!
 
 ## Test
 todo
