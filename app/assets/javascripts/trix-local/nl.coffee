@@ -1,4 +1,4 @@
-Trix.config.lang.nl =
+Trix.config.lang =
   bold: "Vet"
   bullets: "Bullets"
   byte:  "Byte"
