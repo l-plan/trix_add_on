@@ -11,3 +11,10 @@
 // about supported directives.
 //
 //= require_tree .
+//= require jquery
+//= require jquery_ujs
+//= require trix
+//= require trix-local/nl
+//= require trix_add_on
+
+

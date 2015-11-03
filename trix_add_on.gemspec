@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_development_dependency "rails", "~> 5.0.0.alpha"
-
+  s.add_development_dependency "trix_on_rails"
   s.add_development_dependency "mysql2", "~> 0.4"
 end

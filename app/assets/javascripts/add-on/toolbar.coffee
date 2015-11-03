@@ -4,7 +4,10 @@
 Trix.config.toolbar =
   content: makeFragment """
     <div class="button_groups">
+
       <span class="button_group text_tools">
+        
+
         <button type="button" class="grey" data-attribute="grey" data-key="grey" title="#{lang.grey}">#{lang.grey}</button>
         <button type="button" class="ins" data-attribute="ins" data-key="ins" title="#{lang.ins}">#{lang.ins}</button>
         <button type="button" class="bold" data-attribute="bold" data-key="b" title="#{lang.bold}">#{lang.bold}</button>
@@ -14,7 +17,21 @@ Trix.config.toolbar =
       </span>
 
       <span class="button_group block_tools">
-         <button type="button" class="heading" data-attribute="h1" title="h1">h1</button>
+ 
+
+<span class="dropdown">
+
+
+    <button type="button" class="heading" data-attribute="heading1" title="#{lang.heading}">#{lang.heading}</button>
+
+
+    <ul class="dropdown-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</span>
+
         <button type="button" class="quote" data-attribute="quote" title="#{lang.quote}">#{lang.quote}</button>
         <button type="button" class="code" data-attribute="code" title="#{lang.code}">#{lang.code}</button>
         <button type="button" class="list bullets" data-attribute="bullet" title="#{lang.bullets}">#{lang.bullets}</button>
@@ -40,4 +57,8 @@ Trix.config.toolbar =
         </div>
       </div>
     </div>
+
+
+
   """
+

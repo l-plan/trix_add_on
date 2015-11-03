@@ -25,3 +25,4 @@ Trix.config.lang =
   TB: "TB"
   ins: "onderstrepen"
   grey: "grijs"
+  heading: "kopje"
