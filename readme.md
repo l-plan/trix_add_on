@@ -5,6 +5,12 @@ See the changelog for what is added. For now, it adds:
 
 	* underline
 	* lighter font
+	* format	 h1
+				 h2
+				 h3
+				 h4
+				 h5
+				 p
 
 Remember, like in the [trix_on_rails-gem](https://github.com/l-plan/trix_on_rails), it's merely playing with trix, coffeescript and rails5!
 

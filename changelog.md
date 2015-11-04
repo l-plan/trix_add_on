@@ -1,3 +1,6 @@
+0.1.3
+add format (h1,h2,p) to toolbar
+
 0.1.2
 
 fixed grey in scss-file
