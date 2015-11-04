@@ -22,15 +22,21 @@ Trix.config.toolbar =
 <span class="dropdown">
 
 
-    <button type="button" class="heading" data-attribute="heading1" title="#{lang.heading}">#{lang.heading}</button>
+    <button type="button" class="heading" data-attribute="header1" title="#{lang.heading}">#{lang.heading}</button>
 
 
     <ul class="dropdown-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+     
+        <button class="selHeader sh1" type="button" data-key="h1" data-attribute="heading1" >heading 1</button>
+        <button class="selHeader sh2" type="button" data-key="h2" data-attribute="heading2" >heading 2</button>
+        <button class="selHeader sh3" type="button" data-key="h3" data-attribute="heading3" >heading 3</button>
+        <button class="selHeader sh4" type="button" data-key="h4" data-attribute="heading4" >heading 4</button>
+        <button class="selHeader sh5" type="button" data-key="h5" data-attribute="heading5" >heading 5</button>
+        <button class="selHeader shp" type="button" data-key="p" data-attribute="normal" >normal</button>
+
     </ul>
 </span>
+        
 
         <button type="button" class="quote" data-attribute="quote" title="#{lang.quote}">#{lang.quote}</button>
         <button type="button" class="code" data-attribute="code" title="#{lang.code}">#{lang.code}</button>
