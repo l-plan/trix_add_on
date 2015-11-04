@@ -16,5 +16,6 @@
 //= require trix
 //= require trix-local/nl
 //= require trix_add_on
+//= require uploads
 
 
